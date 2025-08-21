@@ -1,102 +1,308 @@
 [
-  {
-    "id": 101,
-    "name": "Rahul Deshmukh",
-    "age": 18,
-    "city": "Nagpur",
-    "skills": ["python", "sql"],
-    "scores": {"math": 82, "english": 75, "science": 79},
-    "active": true,
-    "joined": "2024-07-15"
-  },
-  {
-    "id": 102,
-    "name": "Sneha Kulkarni",
-    "age": 19,
-    "city": "Pune",
-    "skills": ["excel", "python"],
-    "scores": {"math": 91, "english": 88, "science": 84},
-    "active": true,
-    "joined": "2024-08-01"
-  },
-  {
-    "id": 103,
-    "name": "Arun Kumar",
-    "age": 20,
-    "city": "Madurai",
-    "skills": ["html", "css", "javascript"],
-    "scores": {"math": 67, "english": 72, "science": 70},
-    "active": false,
-    "joined": "2023-12-20"
-  },
-  {
-    "id": 104,
-    "name": "Priya Ramesh",
-    "age": 18,
-    "city": "Chennai",
-    "skills": ["python", "git"],
-    "scores": {"math": 78, "english": 85, "science": 80},
-    "active": true,
-    "joined": "2024-09-05"
-  },
-  {
-    "id": 105,
-    "name": "Amit Patil",
-    "age": 21,
-    "city": "Mumbai",
-    "skills": ["sql", "powerbi"],
-    "scores": {"math": 88, "english": 74, "science": 90},
-    "active": true,
-    "joined": "2023-11-11"
-  },
-  {
-    "id": 106,
-    "name": "Meera Shinde",
-    "age": 20,
-    "city": "Jalgaon",
-    "skills": ["python", "flask"],
-    "scores": {"math": 72, "english": 80, "science": 77},
-    "active": false,
-    "joined": "2024-01-25"
-  },
-  {
-    "id": 107,
-    "name": "Nilesh Gaikwad",
-    "age": 22,
-    "city": "Nasik",
-    "skills": ["linux", "docker"],
-    "scores": {"math": 65, "english": 60, "science": 68},
-    "active": true,
-    "joined": "2022-10-09"
-  },
-  {
-    "id": 108,
-    "name": "Ayesha Khan",
-    "age": 19,
-    "city": "Delhi",
-    "skills": ["python", "pandas"],
-    "scores": {"math": 95, "english": 92, "science": 93},
-    "active": true,
-    "joined": "2024-02-29"
-  },
-  {
-    "id": 109,
-    "name": "Rinchen Sherpa",
-    "age": 18,
-    "city": "Darjeeling",
-    "skills": ["excel"],
-    "scores": {"math": 55, "english": 61, "science": 58},
-    "active": false,
-    "joined": "2023-07-03"
-  },
-  {
-    "id": 110,
-    "name": "Anjali Sharma",
-    "age": 21,
-    "city": "Jaipur",
-    "skills": ["sql", "python"],
-    "scores": {"math": 86, "english": 89, "science": 91},
-    "active": true,
-    "joined": "2024-05-10"
-  }
+    {
+        "id": 101,
+        "name": "Rahul Deshmukh",
+        "age": 18,
+        "city": "Nagpur",
+        "skills": [
+            "python",
+            "sql"
+        ],
+        "scores": {
+            "math": 82,
+            "english": 75,
+            "science": 79
+        },
+        "active": true,
+        "joined": "2024-07-15"
+    },
+    {
+        "id": 102,
+        "name": "Sneha Kulkarni",
+        "age": 19,
+        "city": "Pune",
+        "skills": [
+            "excel",
+            "python"
+        ],
+        "scores": {
+            "math": 91,
+            "english": 88,
+            "science": 84
+        },
+        "active": true,
+        "joined": "2024-08-01"
+    },
+    {
+        "id": 103,
+        "name": "Arun Kumar",
+        "age": 20,
+        "city": "Madurai",
+        "skills": [
+            "html",
+            "css",
+            "javascript"
+        ],
+        "scores": {
+            "math": 67,
+            "english": 72,
+            "science": 70
+        },
+        "active": false,
+        "joined": "2023-12-20"
+    },
+    {
+        "id": 104,
+        "name": "Priya Ramesh",
+        "age": 18,
+        "city": "Chennai",
+        "skills": [
+            "python",
+            "git"
+        ],
+        "scores": {
+            "math": 78,
+            "english": 85,
+            "science": 80
+        },
+        "active": true,
+        "joined": "2024-09-05"
+    },
+    {
+        "id": 105,
+        "name": "Amit Patil",
+        "age": 21,
+        "city": "Mumbai",
+        "skills": [
+            "sql",
+            "powerbi"
+        ],
+        "scores": {
+            "math": 88,
+            "english": 74,
+            "science": 90
+        },
+        "active": true,
+        "joined": "2023-11-11"
+    },
+    {
+        "id": 106,
+        "name": "Meera Shinde",
+        "age": 20,
+        "city": "Jalgaon",
+        "skills": [
+            "python",
+            "flask"
+        ],
+        "scores": {
+            "math": 72,
+            "english": 80,
+            "science": 77
+        },
+        "active": false,
+        "joined": "2024-01-25"
+    },
+    {
+        "id": 107,
+        "name": "Nilesh Gaikwad",
+        "age": 22,
+        "city": "Nasik",
+        "skills": [
+            "linux",
+            "docker"
+        ],
+        "scores": {
+            "math": 65,
+            "english": 60,
+            "science": 68
+        },
+        "active": true,
+        "joined": "2022-10-09"
+    },
+    {
+        "id": 108,
+        "name": "Ayesha Khan",
+        "age": 19,
+        "city": "Delhi",
+        "skills": [
+            "python",
+            "pandas"
+        ],
+        "scores": {
+            "math": 95,
+            "english": 92,
+            "science": 93
+        },
+        "active": true,
+        "joined": "2024-02-29"
+    },
+    {
+        "id": 109,
+        "name": "Rinchen Sherpa",
+        "age": 18,
+        "city": "Darjeeling",
+        "skills": [
+            "excel"
+        ],
+        "scores": {
+            "math": 55,
+            "english": 61,
+            "science": 58
+        },
+        "active": false,
+        "joined": "2023-07-03"
+    },
+    {
+        "id": 110,
+        "name": "Anjali Sharma",
+        "age": 21,
+        "city": "Jaipur",
+        "skills": [
+            "sql",
+            "python"
+        ],
+        "scores": {
+            "math": 86,
+            "english": 89,
+            "science": 91
+        },
+        "active": true,
+        "joined": "2024-05-10"
+    },
+    {
+        "id": 111,
+        "name": "RAni ",
+        "age": 21,
+        "city": "Pune",
+        "skills": [
+            "sql",
+            "python"
+        ],
+        "scores": {
+            "math": 86,
+            "english": 89,
+            "science": 91
+        },
+        "active": true,
+        "joined": "2024-05-10"
+    },
+    {
+        "id": 111,
+        "name": "RAni ",
+        "age": 21,
+        "city": "Pune",
+        "skills": [
+            "sql",
+            "python"
+        ],
+        "scores": {
+            "math": 86,
+            "english": 89,
+            "science": 91
+        },
+        "active": true,
+        "joined": "2024-05-10"
+    },
+    {
+        "id": 111,
+        "name": "RAni ",
+        "age": 21,
+        "city": "Pune",
+        "skills": [
+            "sql",
+            "python"
+        ],
+        "scores": {
+            "math": 86,
+            "english": 89,
+            "science": 91
+        },
+        "active": true,
+        "joined": "2024-05-10"
+    },
+    {
+        "id": 111,
+        "name": "RAni ",
+        "age": 21,
+        "city": "Pune",
+        "skills": [
+            "sql",
+            "python"
+        ],
+        "scores": {
+            "math": 86,
+            "english": 89,
+            "science": 91
+        },
+        "active": true,
+        "joined": "2024-05-10"
+    },
+    {
+        "id": 111,
+        "name": "RAni ",
+        "age": 21,
+        "city": "Pune",
+        "skills": [
+            "sql",
+            "python"
+        ],
+        "scores": {
+            "math": 86,
+            "english": 89,
+            "science": 91
+        },
+        "active": true,
+        "joined": "2024-05-10"
+    },
+    {
+        "id": 111,
+        "name": "RAni ",
+        "age": 21,
+        "city": "Pune",
+        "skills": [
+            "sql",
+            "python"
+        ],
+        "scores": {
+            "math": 86,
+            "english": 89,
+            "science": 91
+        },
+        "active": true,
+        "joined": "2024-05-10"
+    },
+    {
+        "id": 111,
+        "name": "RAni ",
+        "age": 21,
+        "city": "Pune",
+        "skills": [
+            "sql",
+            "python"
+        ],
+        "scores": {
+            "math": 86,
+            "english": 89,
+            "science": 91
+        },
+        "active": true,
+        "joined": "2024-05-10"
+    },
+    {
+        "id": 111,
+        "name": "RAni ",
+        "age": 21,
+        "city": "Pune",
+        "skills": [
+            "sql",
+            "python"
+        ],
+        "scores": {
+            "math": 86,
+            "english": 89,
+            "science": 91
+        },
+        "active": true,
+        "joined": "2024-05-10"
+    }
 ]

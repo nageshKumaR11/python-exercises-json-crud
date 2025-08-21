@@ -1,0 +1,17 @@
+{
+    "id": 111,
+    "name": "RAni ",
+    "age": 21,
+    "city": "Pune",
+    "skills": [
+        "sql",
+        "python"
+    ],
+    "scores": {
+        "math": 86,
+        "english": 89,
+        "science": 91
+    },
+    "active": true,
+    "joined": "2024-05-10"
+}
