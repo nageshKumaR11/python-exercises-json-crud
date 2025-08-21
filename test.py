@@ -9,36 +9,58 @@ def load_file():
         data = json.load(file)
     return data
 
-# file = load_file()
-# print(file)
-
-def write_file(datas):
-        # Write dictionary to a JSON file
-    db = load_file()
-    db.append(datas)    
-    with open(DB_PATH, "w") as f:
-        json.dump(db, f, indent=4)   # indent makes it pretty-printed
-    print("Update Succesful !")    
-
-
-sample_d =   {
-    "id": 111,
-    "name": "RAni ",
-    "age": 21,
-    "city": "Pune",
-    "skills": ["sql", "python"],
-    "scores": {"math": 86, "english": 89, "science": 91},
-    "active": True,
-    "joined": "2024-05-10"
-  }
+DB_FILE = load_file()
 
 
 def delete_student(id):
-    pass
+    new_file = []
+    for student in DB_FILE:
+        if student['id'] != id:
+            new_file.append(student)
+        # Step 3: Write back the updated list
+    with open(DB_PATH, "w") as f:
+        json.dump(new_file, f, indent=4)
+    print("Deletion succesful ")
 
-READ_DATA = load_file()
+delete_student(111)
 
-for student in READ_DATA:
-    print("    _        _     ",student['name'])
-    for skil in student['skills']:
-        print(skil)
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# sample_d =   {
+#     "id": 111,
+#     "name": "RAni ",
+#     "age": 21,
+#     "city": "Pune",
+#     "skills": ["sql", "python"],
+#     "scores": {"math": 86, "english": 89, "science": 91},
+#     "active": True,
+#     "joined": "2024-05-10"
+#   }
